@@ -54,3 +54,18 @@
   /* width: 360px;
   height: 360px; */
 }
+
+.figures {
+  width: 250px;
+  height: 250px;
+}
+
+/* .nezuko {
+  display: inline;
+} */
+
+.side {
+  margin: auto;
+  width: 50%;
+  display: inline;
+}
