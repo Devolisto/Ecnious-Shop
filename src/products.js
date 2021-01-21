@@ -1,5 +1,5 @@
 
-import Nezuko from './images/Nezuko.jpg'
+import Nezuko from "./images/Nezuko.jpg"
 import Luffy from './images/luffy.jpg'
 
 const products = [

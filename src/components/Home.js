@@ -4,10 +4,7 @@ import shopFront from '../images/shopFront.jpg'
 
 
 const Home = () => {
-    // const Products = Products.map(product => (
-
-    // ))
-
+    
     return (
         <div>
         <div>
@@ -35,11 +32,11 @@ export default Home;
 
 
 
-{/* /* <div className="side">
+/* /* <div className="side">
         <img className="figures"  />
         <h4>Nezuko Action figure</h4>
         <h4>250SR</h4>
-        </div> */}
+        </div> */
 
         // <div className="side">
         // <img className="figures"  />

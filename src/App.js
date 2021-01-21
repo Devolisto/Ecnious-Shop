@@ -1,18 +1,27 @@
 // import logo from './logo.svg';
-
+  
+import { GlobalStyle } from "./styles";
 import Home from "./components/Home";
 import ActionFigures from "./components/ActionFigures";
+import ThemeProvider from "styled-components";
 
 // const title = "Ecnious Shop"
+
+const theme = {
+  fontColorMain : "#B8B2AD",
+  backgroundMain : "#F0EDEB",
+  priceColor : "#D4CCC3"
+};
 
 function App() {
 
   
   return (
-    <div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle/>
       <Home/>
       <ActionFigures/>
-      </div>
+    </ThemeProvider>
 
   );
 }
