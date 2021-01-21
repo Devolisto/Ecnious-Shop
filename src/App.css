@@ -37,7 +37,6 @@
   }
 }
 
-
 .welcome {
   text-align: center;
 }
@@ -56,6 +55,7 @@
 }
 
 .figures {
+  display: block;
   width: 250px;
   height: 250px;
 }
@@ -65,7 +65,8 @@
 } */
 
 .side {
-  margin: auto;
-  width: 50%;
-  display: inline;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
